@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+  font-family: 'Roboto', sans-serif;  
+  background: url(https://cdn.allwallpaper.in/wallpapers/1024x768/12652/patterns-white-1024x768-wallpaper.jpg);
+  margin: 0;
+}
+header{
+  background: #016891;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 1024px;
+  margin: 0 auto 0;
+  background: #016891;
+}
+.menuItem{
+  font-size: 28px;
+  width: 140px;
+  padding: 27px 0 27px 0;
+  text-align: center;
+  color: #C5EAF3;
+}
+.logo{
+  background: #3AB9DA;
+  border-radius: 50%;
+  padding-top: 10px;
+  margin-right: 508px;
+}
+.menuItem:hover{
+  color: #3AB9DA;
+  background: #C5EAF3;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.contentBox{
+  width: 1024px;
+  margin: 0 auto 0;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px 0 80px 0;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+footer {
+  width: 1024px;
+  background: #016891;
+  margin: 0 auto 0;
+  color: #C5EAF3;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0;
+}
